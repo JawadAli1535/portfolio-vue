@@ -16,7 +16,7 @@ const projects = [
     {
         id: 2,
         name: "Static Website",
-        description: "The UI/UX Designer Landing Page is a visually captivating platform for creative professionals to showcase their talents and portfolio. Crafted with Vue.js, it provides a seamless and interactive user experience. The landing page is a canvas for designers to display their finest work, tell their design journey, and connect with potential clients. It's a portfolio that stands out, with beautiful animations and a minimalist design that emphasizes the beauty of UI and UX.",
+        description: "The Nibnab Static Website  is a visually captivating platform for creative professionals to showcase their talents and portfolio. Crafted with Next.js and Tailwindcss, it provides a seamless and interactive user experience. It's a portfolio that stands out, with beautiful animations and a minimalist design that emphasizes the beauty of UI and UX.",
         link: "https://www.github.com",
         picture: require('@/assets/images/nibnab.png'),
         deployedLink: "https://nibnab.vercel.app/",
@@ -24,12 +24,24 @@ const projects = [
     },
     {
         id: 3,
-        name: "Restaurant Landing Page",
-        description: "The Restaurant Landing Page is a responsive and feature-rich web presence solution for eateries. It's built using React.js and stylized with Bootstrap to deliver an attractive online front for restaurants of all sizes. This landing page offers not just a glimpse of the restaurant's delicious offerings but also facilitates online reservations and takeout orders. With dynamic menus, eye-catching food photography, and a user-friendly interface, it's a gateway to the world of culinary delights.",
+        name: "Portfolio Website/Viking IT Solution",
+        description: "This portfolio is a sleek and professional platform designed to showcase a company's expertise, projects, and achievements. Built with React.js and styled using Tailwind CSS, it offers a seamless and interactive user experience. The portfolio highlights the company’s services, innovative solutions, and success stories while fostering connections with potential clients and partners. Featuring a clean, minimalist design and engaging animations, it reflects the company’s commitment to excellence and modern web development practices. Additionally, internationalization has been seamlessly integrated into the portfolio, ensuring accessibility and relevance for a global audience.",
         link: "https://www.github.com",
-        picture: require('@/assets/images/UiLanding.png'),
+        picture: require('@/assets/images/vikingit.png'),
+        deployedLink: "https://dazzle-portfolio.vercel.app/en",
         stack: ["React.js", "Bootstrap"]
+    },
+
+    {
+        id: 4,
+        name: "Portfolio Website",
+        description: "This portfolio is a sleek and professional platform designed to showcase a company's expertise, projects, and achievements. Built with React.js and styled using Tailwind CSS, it offers a seamless and interactive user experience. The portfolio highlights the company’s services, innovative solutions, and success stories while fostering connections with potential clients and partners. Featuring a clean, minimalist design and engaging animations, it reflects the company’s commitment to excellence and modern web development practices.",
+        link: "https://www.github.com",
+        picture: require('@/assets/images/rcweb.png'),
+        deployedLink: "https://www.roughcopies.com/",
+        stack: ["Next.js", "Tailwindcss"]
     }
+
 ];
 
 export default {
@@ -43,7 +55,7 @@ export default {
 <template>
   <ContainerLayout>
     <section class="mainContainer">
-      <SectionTitle>Here is what I've been working on</SectionTitle>
+      <SectionTitle>Here is what I've been worked and working on </SectionTitle>
       <div class="projectsGrid">
         <div v-for="project in projects" :key="project.id" class="project">
           <div class="projectImage">
@@ -68,6 +80,7 @@ export default {
           </div>
         </div>
       </div>
+      <p style="margin-top:3rem; text-align: center;">Here are a few examples of my previous work. While I've accomplished much more, showcasing everything here isn't feasible.</p>
     </section>
   </ContainerLayout>
   <CtaSection />
