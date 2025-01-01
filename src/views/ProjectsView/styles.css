@@ -60,4 +60,9 @@
   .project {
     flex-direction: column;
   }
+
+  .projectImage img {
+    width: 340px;
+  
+  }
 }
