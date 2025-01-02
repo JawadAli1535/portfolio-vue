@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
   gap: 1rem;
-  padding: 6rem 0;
+  padding: 2rem 0;
 }
 
 .leftColumnContent,
@@ -40,7 +40,7 @@
 
 .personImage {
   width: 80%;
-  height: 100%;
+  height: 80%;
   border: 1px solid #fff;
   object-fit: cover;
 }

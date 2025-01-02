@@ -33,7 +33,7 @@ export default {
     <div class="rightColumnContent">
       <img
         class="personImage"
-        src="../../../../assets/images/jawadP.jpg"
+        src="../../../../assets/images/jawadprofile.jpeg"
         alt="Person Pic"
       />
     </div>
