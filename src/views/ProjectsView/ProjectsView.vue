@@ -29,7 +29,7 @@ const projects = [
         link: "https://github.com/JawadAli1535/",
         picture: require('@/assets/images/vikingit.png'),
         deployedLink: "https://dazzle-portfolio.vercel.app/en",
-        stack: ["React.js", "Bootstrap"]
+        stack: ["Next.js", "Tailwindcss"]
     },
 
     {
