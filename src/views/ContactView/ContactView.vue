@@ -15,7 +15,7 @@ export default {
       sendEmail() {
         const subject = "Quote Request - " + this.name;
         const body = "Hello, I'm interested in getting a quote for your services.\n\n" + this.message;
-        const mailtoLink = `mailto:your-email@example.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+        const mailtoLink = `mailto:jawadalikhan359@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
         window.location.href = mailtoLink;
       }
     }
