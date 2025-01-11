@@ -84,6 +84,7 @@ export default {
           <li>Responsive Design</li>
           <li>Pixel Perfect UI</li>
           <li>React.js</li>
+          <li>Typescript</li>
           <li>Flux,Redux, ReduxToolkit</li>
           <li>React Charts</li>
           <li>Next.js</li>
