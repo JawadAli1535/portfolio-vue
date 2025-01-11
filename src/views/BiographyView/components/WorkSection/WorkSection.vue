@@ -80,22 +80,26 @@ export default {
         <ul>
           <li>Html5</li>
           <li>Css3 (Bootstrap, TailwindCss, AntD, MUI )</li>
+          <li>Javascript</li>
           <li>Responsive Design</li>
           <li>Pixel Perfect UI</li>
           <li>React.js</li>
-          <li>Redux</li>
+          <li>Flux,Redux, ReduxToolkit</li>
           <li>React Charts</li>
           <li>Next.js</li>
           <li>Vue.js</li>
           <li>React Native</li>
           <li>Firebase</li>
+          <li>SQL</li>
+          <li>MongoDb</li>
+          <li>MERN</li>
         </ul>
-        <h3 class="skillTitle">Tools I am comfortable with:</h3>
+        <!-- <h3 class="skillTitle">Tools I am comfortable with:</h3>
         <ul>
           <li>VsCode</li>
           <li>Sublime Text</li>
           <li>Android Studio</li>
-        </ul>
+        </ul> -->
       </div>
     </div>
   </div>
